@@ -9,7 +9,7 @@ A quiz game that provides multiple choice questions with a timer, when a wrong a
 * JavaScript
 
 ## Website
-https://SBerkebile7.github.io/C4-Quiz-Applet/
+https://sberkebile7.github.io/C4-Quiz-Applet/
 
 ## Contribution
 Made by Spencer
