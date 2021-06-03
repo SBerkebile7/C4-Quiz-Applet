@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod 4 Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="navbar ">
+            <navbar class ="container-fluid align-center">
+                <a href="#" id="highScore" class = "nav-button nav-item">High Scores</a>
+                <h1 id="nav-title"></h1>
+                <div id="game-timers" style="col text-right">
+                    Time: <span id="remainTime">0</span>
+                </div>
+            </navbar>
+        </header>
+    
+        <main >
+            <div id="start" class="justify-content-center m-5">
+                <h1 class="font-weight-bold pl-5 pr-5">JavaScript Coding Quiz</h1>
+                <p class="p-5">Let's test your JS knowledge!</p>
+                <button type="button" id="startBtn" class="btn btn-secondary m-2 align-center">Start Quiz!</button>
+            </div>
+    
+            <section id="quizDetails" style="display:none;">
+                <p id="quesTitle" class="justify-content-center font-weight-bold">
+                    <div class="justify-content-center">
+                        <p><button id="btnA" class="btn btn-secondary"></button></p>
+                        <p><button id="btnB" class="btn btn-secondary"></button></p>
+                        <p><button id="btnC" class="btn btn-secondary"></button></p>
+                        <p><button id="btnD" class="btn btn-secondary"></button></p>
+                        </br>
+                        <p id="ansCheck"></p>
+                    </div>
+                </p>
+            </section>
+    
+            <div id="finalScore" class="justify-content-center" style="display: none;">
+                <h2>Your final score is <span id="finalScore"></span>!</h2>
+            </div>
+            
+        </main>    
+    </div>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

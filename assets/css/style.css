@@ -1,0 +1,10 @@
+a {
+    color:darkslategray;
+}
+a:hover {
+    color:lightslategray;
+    text-decoration: none;
+}
+.btn {
+    outline: none;
+}
