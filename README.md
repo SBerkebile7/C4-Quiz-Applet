@@ -11,5 +11,8 @@ A quiz game that provides multiple choice questions with a timer, when a wrong a
 ## Website
 https://sberkebile7.github.io/C4-Quiz-Applet/
 
+## GitHub Repository
+https://github.com/SBerkebile7/C4-Quiz-Applet
+
 ## Contribution
 Made by Spencer
